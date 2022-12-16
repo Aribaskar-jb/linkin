@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.News{
+    text-align: left;
+    background-color: white;
+    height: fit-content;
+    width: 20pc;
+    border-radius: 15px;
+    padding: 10px 25px;
+    margin: 0 0;
+    /* justify-content: space-between; */
+}
+.News>ul{
+    padding: 0;
+    padding-left: 17px;
+}
+li{
+    padding: 10px 0px;
+}

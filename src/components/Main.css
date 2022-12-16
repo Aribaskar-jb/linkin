@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Main{
+    background-color: transparent;
+    height: fit-content;
+    text-align: center;
+    padding-top: 6pc;
+}
+.Info_Card{
+    gap: 12px;
+    padding: 0;
+    display: grid;
+    height: fit-content;
+    justify-content: center;
+}
+.Main_row{
+    padding: 0px 15%;
+    gap: 30px;
+    width: fit-content;
+}
+.Logo{
+    border-radius: 50px;
+    margin-top: -30px;
+}
+.Banner{
+    border-radius: 15px 15px 0 0;
+}
+.Card{
+    width: 15pc;
+    height: 23.6pc;
+    background-color: white;
+    margin: 0 ;
+    padding: 0;
+    border-radius: 15px;
+}
+.network>h6{
+    margin:0 0 0 0;
+    margin-left: 10px;
+    gap: 10px;
+    font-size: 14px;
+}
+.network{
+    display: grid;
+    gap: 3.5px;
+    text-align: left;
+    padding: 0;
+}
+.my_item{
+    display: flex;
+    height: 2.9pc;
+    align-items: center;
+    border-radius:0 0 15px 15px ;
+}
+.recent{
+    padding-top: 15px;  
+    background-color: white;
+    border-radius: 12px;
+    height: 11pc;
+    width: 15pc;
+    margin: 0;
+}
+.recent>h6{
+    font-size: 14px;
+    margin: 0px;
+}
+.Feed{
+    display: grid;
+    gap: 12px;
+    width: 38pc;
+    height: 8pc;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.Feed_Button{
+    background-color: transparent;
+    border-radius: 25px;
+    text-align: left;
+    width: 30pc;
+    height: 3.2pc;
+    color: gray;
+    border-color: gray;
+}
+.Feed_Button:hover{
+    background-color: rgb(231, 231, 231);
+    color: gray;
+    border-color: gray;
+
+}
+.Info_Feed{
+    height: 100pc;
+}
+.Post{
+    background-color:rgb(255, 255, 255);
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+}
+.Feed_Heed{
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+.More{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+}
+.News_Feed{
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.news_feed{
+    display: grid;
+    justify-content: center;
+    width: 20pc;
+    margin: 0 0 0 0;
+    position:static;
+}
+.news_feed>div>a{
+    color: gray;
+    font-size: 14px;
+}
+.news_feed>div>a:hover{
+    color: rgb(62, 62, 250);
+}

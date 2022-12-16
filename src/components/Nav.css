@@ -1,0 +1,41 @@
+.Col_Nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 8px;
+    justify-content: center; /*aline item center will aline from left to right: ; *//*aline item center will aline from top to bott: ; */
+}
+#Search{
+    border-color: transparent;
+    background-color: #d8ecfffb;
+    outline: none;
+}
+.Search_Box{
+    width: 21pc;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #d8ecfffb;
+    height: 2.4pc;
+}
+.Main_Nav{
+    position:fixed;
+ height: 4pc;
+ background-color: rgb(255, 255, 255);
+}
+.Row_Nav{
+    text-align: center;
+    height: 100%;
+}
+.Col_Nav2{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 100%;
+}
+.line{
+    width: 1px;
+    height:71px;
+    background-color: rgb(206, 206, 206);
+}

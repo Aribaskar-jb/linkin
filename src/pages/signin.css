@@ -1,0 +1,14 @@
+#InputEmail,#InputPassword{
+    height: 3.3pc ;
+}
+#InputPassword{
+    outline: none;
+    border: none;
+}
+.pass{
+    border: 2px solid rgb(210, 210, 210);
+    border-radius: 8px;
+}
+input{
+    padding-left: 10px;
+}

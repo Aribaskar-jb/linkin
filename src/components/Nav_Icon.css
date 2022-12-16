@@ -1,0 +1,11 @@
+.Nav_Icon{
+height: fit-content;
+justify-items: center;
+}
+.Nav_Icon>h6{
+    margin: 0 0 0 0;
+}
+.Nav_Icon:hover{
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+}
